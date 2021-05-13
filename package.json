@@ -8,7 +8,8 @@
     "url": "https://github.com/rice-farm/rice-core.git"
   },
   "publishConfig": {
-    "registry": "http://registry.npmjs.org"
+    "registry": "http://registry.npmjs.org",
+    "access": "public"
   },
   "files": [
     "contracts",
@@ -57,5 +58,5 @@
     "truffle": "^5.1.41",
     "truffle-flattener": "^1.4.4",
     "truffle-hdwallet-provider": "^1.0.17"
-  }
+  },
 }
